@@ -1,4 +1,4 @@
-//Author: ËïÃ÷Ö¾ Áºê»å¹ ÁÖ÷è
+//Author: å­™æ˜å¿— æ¢æ˜Šéª æ—éº’
 #define NDEBUG
 #include <cstdio>
 #include <cstring>
@@ -427,7 +427,7 @@ public:
 		edges.push_back(new_edge);
 		const int size = edges[e].cap.size();
 		for (int c = 0; c < P; ++c) {
-			cover[c][e].reserve(size); //todo: ³¬ÄÚ´æ£¿
+			cover[c][e].reserve(size); //todo: è¶…å†…å­˜ï¼Ÿ
 		}
 	}
 	inline void transform(vector<pair<int, vector<int>>>& paths) {
